@@ -16,7 +16,7 @@ app.use(body_parser.urlencoded({extended: false}));
 app.use(express.static('public'));
 
 app.get('/', function (request, response) {
-  response.send('narf');
+  response.send('Hello World!');
 });
 
 app.get('/about', function (request, response) {
